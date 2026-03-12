@@ -1,0 +1,5 @@
+/* Global resets and base styles are injected by globalCss.ts at runtime.
+   This file is the Tailwind entry point kept for tooling compatibility. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
