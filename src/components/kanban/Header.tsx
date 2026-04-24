@@ -18,12 +18,7 @@ const Header: FC<HeaderProps> = ({ theme, progress, columns, onToggleTheme, onNe
   }}>
     <div className="header-inner" style={{ height: "100%", display: "flex", alignItems: "center", padding: "0 18px", gap: 14 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 9, flexShrink: 0 }}>
-        <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
-          <rect x="0" y="0" width="11" height="11" rx="3" fill="#4285F4" />
-          <rect x="15" y="0" width="11" height="11" rx="3" fill="#EA4335" />
-          <rect x="0" y="15" width="11" height="11" rx="3" fill="#34A853" />
-          <rect x="15" y="15" width="11" height="11" rx="3" fill="#FBBC04" />
-        </svg>
+        <img src="/icon.png" alt="KanbanFlow Logo" width="28" height="28" style={{ borderRadius: 6, objectFit: "contain" }} />
         <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 15, letterSpacing: "1.5px", textTransform: "uppercase", color: "var(--text)" }}>
           KANBANFLOW
         </span>
