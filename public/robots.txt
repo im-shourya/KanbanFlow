@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://kanbanflow.com/sitemap.xml
+Sitemap: https://kanbanflow.shouryaparashar.in/sitemap.xml
